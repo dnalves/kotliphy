@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trending_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/trending_random_image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        fresco:placeholderImage="@drawable/ic_search_black_24dp"
+        fresco:failureImage="@drawable/ic_trending_up_black_24dp"
+        />
+
+</LinearLayout>

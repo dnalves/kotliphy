@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Giphy</string>
+    <string name="search_button">Search</string>
+    <string name="title_activity_main">Kotliphy</string>
+    <string name="navigation_trending">Trending</string>
+    <string name="navigation_search">Search</string>
+    <string name="navigation_favorites">Favorites</string>
+</resources>
