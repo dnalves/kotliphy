@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fresco="http://schemas.android.com/apk/res-auto"
     android:id="@+id/trending_content"
     android:layout_width="match_parent"
@@ -15,4 +15,4 @@
         fresco:failureImage="@drawable/ic_trending_up_black_24dp"
         />
 
-</LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
