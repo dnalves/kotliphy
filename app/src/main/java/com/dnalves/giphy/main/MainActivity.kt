@@ -1,19 +1,12 @@
 package com.dnalves.giphy.main
 
-import android.os.AsyncTask
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
 import android.widget.FrameLayout
 import com.dnalves.giphy.R
 import com.dnalves.giphy.common.bind
-import com.dnalves.giphy.network.DataEnvelope
-import com.dnalves.giphy.network.DataRandom
-import com.dnalves.giphy.network.GiphyNetwork
 import com.dnalves.giphy.trending.TrendingFragment
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 

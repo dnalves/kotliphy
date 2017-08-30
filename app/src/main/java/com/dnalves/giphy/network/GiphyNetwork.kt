@@ -53,7 +53,7 @@ class GiphyRequestInterceptor(val apiKey: String) : Interceptor {
 
 }
 
-data class DataRandom(
+data class DataGif(
 
         @SerializedName("type")
         val type: String,
@@ -62,6 +62,23 @@ data class DataRandom(
         val id:String,
 
         @SerializedName("image_url")
-        val imageUrl: String
+        val imageUrl: String,
+
+        @SerializedName("images")
+        val images: DataImages
+
+)
+
+data class DataImages(
+
+        @SerializedName("fixed_height_small")
+        val fixedHeightSmall: FixedHeightSmallImage
+
+)
+
+data class FixedHeightSmallImage(
+
+        @SerializedName("url")
+        val url: String
 
 )
